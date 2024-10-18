@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Đồ án xây dựng hệ thống POS do các sinh viên SGU thực hiện
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
