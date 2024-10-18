@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  background-color: darkgreen;
+}
+
+.Button-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 10px; /* Space between buttons */
+  text-align: center; /* Center text in buttons */
+  border: black solid 5px; /* Border around button group */
+  padding: 5px; /* Padding around button group */
+}
+
+.Button-group button {
+  width: 100%; /* Full width of the grid cell */
+  padding: 15px; /* Padding for button */
+  background-color: white; /* Button background color */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor on hover */
+  aspect-ratio: 1 / 1; /* Maintain a hinh vuong aspect ratio (1:1) */
+  display: flex; /* Center text */
+  align-items: center; /* Vertically center text */
+  justify-content: center; /* Horizontally center text */
+  border-radius: 15px; /* border button */
+}
+
+.Button-group button:hover {
+  transform: scale(1.03);
+}
+.Button-group button:active {
+  transform: scale(1); /* Slightly scale down on click */
+}
+
+/*.App-logo {*/
+/*  height: 40vmin;*/
+/*  pointer-events: none;*/
+/*}*/
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
+
+.App-header {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
