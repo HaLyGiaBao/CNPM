@@ -1,6 +1,9 @@
 # Đồ án xây dựng hệ thống POS do các sinh viên SGU thực hiện
 
-`pos_cnpm
+# Test commit バオリイ
+
+```
+pos_cnpm
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
@@ -25,4 +28,5 @@
     ├── README.md
     ├── node_modules
     ├── package.json
-    └── .gitignore`
+    └── .gitignore
+```
